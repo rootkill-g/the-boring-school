@@ -1,0 +1,162 @@
+body {
+	margin: 0 auto;
+	font-family: 'Alata', sans-serif;	
+	color: #363636;
+}
+
+.container {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+header {
+	height: 35px;
+	width: 100%;
+	top: 0;
+}
+
+.header {
+	text-align: center;
+}
+
+.header h1 {
+	font-weight: normal;
+	padding: 5px 0;
+	line-height: 40px;
+	background-color: rgba(255, 255, 149, 0.7);
+	border: 1px solid rgba(155, 155, 49, 0.2);
+	box-shadow: 0 7px 20px rgba(205, 205, 99, 0.4);
+}
+
+.timetable-card-container {
+	padding-top: 15px;
+	margin: 0 auto;
+	height: 500px;
+	text-align: center;
+	top: 200px;
+}
+
+.txt-timetable h1 {
+	background-color: rgba(204, 255, 204, 0.8);
+	padding: 10px 5px;
+	border: 1px solid rgb(104, 155, 104, 0.2);
+	box-shadow: 0 7px 20px rgba(154, 205, 154, 0.4);
+}
+
+.timetable-cards {
+	background-color: rgba(224, 250, 255, 0.8);
+	width: 1180px;
+	float: left;
+	border: 1px solid rgba(104, 130, 155, 0.2);
+	box-shadow: 0 7px 20px rgba(154, 180, 205, 0.4);
+}
+
+.card {
+	width: 1180px;
+}
+
+.data {
+	float: left;
+	width: 12.95%;
+	text-align: center;
+	padding: 0 20px;
+}
+
+.data h4 {
+	width: 100%;
+	padding: 15px 10px;
+	transition: all 0.2s;
+}
+
+.data h4:hover {
+	transform: scale(1.15);
+}
+
+.day h4 {
+	background-color: rgba(255, 77, 77, 0.8);
+	color: white;
+}
+
+.day h4:hover {
+	background-color: rgba(255, 0, 0, 0.65);
+	color: white;
+	box-shadow: 0 7px 20px rgba(205, 0, 0, 0.4);
+}
+
+.second h4 {
+	background-color: rgba(83, 126, 197, 0.7);
+}
+
+.second h4:hover {
+	background-color: rgba(83, 126, 197, 0.82);
+	box-shadow: 0 7px 20px rgba(33, 76, 147, 0.4);
+}
+
+.time h4 {
+	background-color: rgba(41, 58, 128, 0.7);
+	color: white;
+}
+
+.time h4:hover {
+	background-color: rgba(41, 58, 128, 0.82);
+	box-shadow: 0 7px 20px rgba(0, 8, 78, 0.4);
+	color: white;
+}
+
+.computer h4 {
+	background-color: rgba(190, 159, 225, 0.7);
+}
+
+.computer h4:hover {
+	background-color: rgba(190, 159, 225, 0.82);
+	box-shadow: 0 7px 20px rgba(140, 109, 175, 0.4);
+}
+
+.third h4 {
+	background-color: rgba(255, 255, 0, 0.7);
+}
+
+.third h4:hover {
+	background-color: rgba(255, 255, 0, 0.82);
+	box-shadow: 0 7px 20px rgba(205, 205, 0, 0.4);
+}
+
+.forth h4 {
+	background-color: rgba(255, 149, 149, 0.7);
+}
+
+.forth h4:hover {
+	background-color: rgba(255, 149, 149, 0.82);
+	box-shadow: 0 7px 20px rgba(205, 99, 99, 0.4);
+}
+
+.day-time h4 {
+	background-color: rgba(41, 58, 128, 0.7);
+	color: white;
+}
+
+.day-time h4:hover {
+	background-color: rgba(41, 58, 128, 0.82);
+	box-shadow: 0 7px 20px rgba(0, 8, 78, 0.4);
+	color: white;
+}
+
+.break h4 {
+	background-color: rgba(230, 0, 0, 0.7);
+	color: white;
+}
+
+.break h4:hover {
+	background-color: rgba(230, 0, 0, 0.82);
+	color: white;
+	box-shadow: 0 7px 20px rgba(180, 0, 0, 0.4);
+}
+
+.first h4 {
+	background-color: rgba(0, 230, 153, 0.7);
+}
+
+.first h4:hover {
+	background-color: rgba(0, 230, 153, 0.82);
+	box-shadow: 0 7px 20px rgba(0, 180, 103, 0.4);
+}
