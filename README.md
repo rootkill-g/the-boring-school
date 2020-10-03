@@ -13,10 +13,10 @@ You are welcomed to propose new ideas, and contribute. The process for this is :
 3. clone your forked repo : (cli command): `git clone https://github.com/your_name/the-boring-school.git`
 4. change directory by : `cd the-boring-school`
 5. make your own branch : `git checkout -b your_name` (this will add your new branch and automatically move you to your new branch)
-6. code.
+6. Code. (all your creativity is welcomed)
 7. add your changes : `git add .`
 8. commit the changes : `git commit -m "your comment about your change"`
-9. push the changes to your repository : `git push origin your_branch_name` (since you used clone command, the origin is set automatically)
+9. push the changes to your repository : `git push origin your_branch_name`
 10. create pull request.
 
 You can also make changes to this README fiel
