@@ -1,6 +1,5 @@
----------Progate-August-Webathon---------
- Web Page for an Educational Institution
------------------------------------------
+Progate August Webathon : Web Page for an Educational Institution
+
 URL: https://h4rsh-k.github.io/the-boring-school/
 
 Since Pandemic, the teachers are feeling helpless as they are not able to keep their students updated,
