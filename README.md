@@ -17,7 +17,7 @@ the teachers can easily navigate to the website and put up a quiz and the studen
 7. Add your changes : `git add .`
 8. Commit the changes : `git commit -m "your comment about your edits"`
 9. Alternatively, you may combine `add` and `commit` into: `git commit -am "your comment about your edits"` **(only for existing files, not for new ones)**.
-9. Push the changes to your repository : `git push origin your_branch_name`
-10. Create a pull request.
+10. Push the changes to your repository : `git push origin your_branch_name`
+11. Create a pull request.
 
 You can also make changes to this README file.
