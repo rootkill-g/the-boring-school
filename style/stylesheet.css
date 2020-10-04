@@ -22,13 +22,13 @@ header {
   height: 70px;
   background-color: transparent;
   top: 0;
-  transition: background-color 0.3s linear;
+  transition: background-color 0.25s linear;
   position: fixed;
   width: 100%;
   z-index: 999;
 }
 .scroll {
-  background-color: rgb(153, 187, 255);
+  background-color: rgb(194, 220, 245);
 }
 
 .psuedo {
@@ -72,7 +72,7 @@ header {
 }
 
 .heading {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 40px;
   color: #1f1f1f;
 }
@@ -84,7 +84,7 @@ header {
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  /* overflow: auto;  Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
@@ -111,7 +111,7 @@ header {
 }
 .modal-content .modal-body .modal-input input {
   height: 30px;
-  border: none;
+  border: 1px solid rgba(154, 180, 205, 0.6);
   outline: none;
   padding: 5px;
   border-radius: 5px;
@@ -121,7 +121,7 @@ header {
 .modal-body button {
   padding: 10px 15px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid rgba(190, 190, 190, 0.6);
   cursor: pointer;
   width: 20%;
   background-color: #f0f0f0;
@@ -179,13 +179,13 @@ header {
   width: 50%;
   padding: 70px 50px;
   background-color: rgba(255, 77, 77, 0.8);
-  box-shadow: 0 20px 30px rgba(255, 11, 11, 0.45);
+  box-shadow: 0 15px 25px rgba(255, 22, 22, 0.3);
 }
 
 .card-icon a:hover {
   background-color: rgba(255, 0, 0, 0.65);
   transform: scale(1.1);
-  box-shadow: 0 12px 35px rgba(255, 11, 11, 0.43);
+  box-shadow: 0 12px 35px rgba(255, 11, 11, 0.3);
 }
 
 .heading h3 {
