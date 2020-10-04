@@ -1,91 +1,155 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Boring School</title>
+    <link rel="stylesheet" href="./style/stylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+    />
+  </head>
 
-  	<head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="psuedo">
+          <div class="header-left">
+            <a href="./index.html"
+              ><img class="logo" src="./images/logo.png"
+            /></a>
+          </div>
+          <div class="header-right">
+            <a href="./index.html" class="login">Home</a>
+            <a href="./cards/under-construction.html" class="login"
+              >Notice Board</a
+            >
+            <a id="login">Log in</a>
+            <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <p>Login</p>
+                  <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="modal-input">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" />
+                    </div>
+                    <div class="modal-input">
+                      <label for="password">Password</label>
+                      <input type="password" id="password" />
+                    </div>
+                    <div class="modal-input">
+                      <button>Login</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>The Boring School</title>
-    		<link rel="stylesheet" href="./style/stylesheet.css">
-		<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-  	</head>
+    <div class="card-container">
+      <div class="container">
+        <div class="psuedo">
+          <div class="heading">
+            <h2>Welcome To The Boring School</h2>
+          </div>
 
-  	<body>
+          <div class="cards">
+            <div class="card-wrapper">
+              <div class="card">
+                <div class="card-icon">
+                  <a href="./cards/timetable.html">Timetable</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-icon">
+                  <a href="./cards/resources.html">Resources</a>
+                </div>
+              </div>
 
-    		<header>
-      			<div class="container">
-				<div class="psuedo">
-        				<div class="header-left">
-          					<a href="./index.html"><img class="logo" src="./images/logo.png"></a>
-        				</div>
+              <div class="card">
+                <div class="card-icon">
+                  <a href="./cards/quiz.html">Quiz</a>
+                </div>
+              </div>
 
-        				<div class="header-right">
-	  					<a href="./index.html" class="login">Home</a>
-	  					<a href="./cards/under-construction.html" class="login">Notice Board</a>
-          					<a href="./cards/under-construction.html" class="login">Log in</a>
-        				</div>
-				</div>
-      			</div>
-    		</header>	
-    
-    		<div class="card-container">
-      			<div class="container">
-				<div class="psuedo">
-					<div class="heading">
-          					<h2>Welcome To The Boring School</h2>
-        				</div>
+              <div class="card">
+                <div class="card-icon">
+                  <a href="./cards/forms.html">Forms</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        				<div class="cards">
-						<div class="card-wrapper">
-          						<div class="card">
-								<div class="card-icon">
-									<a href="./cards/timetable.html">Timetable</a>
-								</div>
-							</div>
-          						<div class="card">
-								<div class="card-icon">
-              								<a href="./cards/resources.html">Resources</a>
-								</div>
-          						</div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="psuedo">
+          <div class="heading">
+            <h2>Don't Be Bored, Instead PLAY VIDE0 GAMES!!!</h2>
+            <h3>Last Person WiiN$!!!</h3>
+            <h4>
+              <span class="code-red"
+                >WARNING! : Watch-0ut for Principal!!!</span
+              >
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
 
-          						<div class="card">
-								<div class="card-icon">
-              								<a href="./cards/quiz.html">Quiz</a>
-								</div>
-          						</div>
+    <footer>
+      <div class="footer-container">
+        <div class="psuedo">
+          <p>
+            The Boring School
+            <a
+              href=" https://www.linkedin.com/in/harsh-kumar-moroliya-a83178143/"
+              class="fa fa-linkedin"
+            ></a>
+          </p>
+        </div>
+      </div>
+    </footer>
 
-          						<div class="card">
-								<div class="card-icon">
-              								<a href="./cards/forms.html">Forms</a>
-								</div>
-          						</div>
-						</div>
-        				</div>
-				</div>
-      			</div>
-    		</div>
+    <script>
+      window.onscroll = () => {
+        const header = document.querySelector('header');
+        if (this.scrollY <= 20) {
+          header.className = '';
+        } else {
+          header.className = 'scroll';
+        }
+      };
 
-    		<div class="message-wrapper">
-      			<div class="container">
-				<div class="psuedo">
-        				<div class="heading">
-          					<h2>Don't Be Bored, Instead PLAY VIDE0 GAMES!!!</h2>
-          					<h3>Last Person WiiN$!!!</h3>
-						<h4><span class="code-red">WARNING! : Watch-0ut for Principal!!!</span></h4>
-        				</div>
-      				</div>
-			</div>
-    		</div>
-
-    		<footer>
-      			<div class="footer-container">
-				<div class="psuedo">
-					<p>The Boring School <a href=" https://www.linkedin.com/in/harsh-kumar-moroliya-a83178143/" class="fa fa-linkedin"></a></p>
-				</div>
-			</div>
-    		</footer>
-
-  	</body>
-
+      const modal = document.getElementById('myModal');
+      const btn = document.querySelector('#login');
+      const span = document.getElementsByClassName('close')[0];
+      btn.onclick = () => {
+        modal.style.display = 'block';
+      };
+      span.onclick = () => {
+        modal.style.display = 'none';
+      };
+      window.onclick = (event) => {
+        if (event.target == modal) {
+          modal.style.display = 'none';
+        }
+      };
+    </script>
+  </body>
 </html>
