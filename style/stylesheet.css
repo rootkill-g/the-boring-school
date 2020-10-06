@@ -1,6 +1,14 @@
+html{
+  width: 100%;
+}
 body {
   margin: 0 auto;
+  width: 100%;
   font-family: 'Alata', sans-serif;
+}
+
+.main{
+  width: 100%;
 }
 
 a {
@@ -14,7 +22,7 @@ a:hover {
 }
 
 .container {
-  width: 1180px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -26,6 +34,14 @@ header {
   position: fixed;
   width: 100%;
   z-index: 999;
+}
+header .container{
+  position: absolute;
+  width: 100%;
+}
+header .container .psuedo{
+  display: flex;
+  justify-content: space-between;
 }
 .scroll {
   background-color: rgb(194, 220, 245);
@@ -42,37 +58,49 @@ header {
 }
 
 .header-left {
-  float: left;
-  margin-left: 23px;
+  width: 113px;
+  padding-left: 23px;
+  box-sizing: border-box;
 }
 
 .header-right {
-  margin-right: 23px;
-  float: right;
+  display: flex;
   border-radius: 15px;
   transition: all 0.5s;
+  box-sizing: border-box;
 }
 
 .header-right a:hover {
   background-color: rgb(167, 216, 228);
 }
 .header-right a {
-  line-height: 70px;
-  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 30px;
+  box-sizing: border-box;
   color: #5f5d60;
-  display: block;
-  float: left;
 }
 
 .card-container {
   height: 500px;
+  padding-top: 60px;
   background-color: rgba(204, 230, 255, 0.7);
   background-size: cover;
   text-align: center;
+  width: 100%;
+}
+.card-container .container{
+  width: 100%;
 }
 
 .heading {
+  box-sizing: border-box;
+  padding: 0 40px;
   padding-top: 40px;
+  width: 100%;
   padding-bottom: 40px;
   color: #1f1f1f;
 }
@@ -150,34 +178,40 @@ header {
 }
 
 .card-wrapper {
-  width: 1180px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  padding: 0 80px;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .cards {
   width: 100%;
+  height: 100%;
 }
 
 .card {
-  float: left;
-  width: 25%;
-  height: 220px;
+  width: 20%;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .card-icon {
+  box-sizing: border-box;
   position: relative;
   width: 100%;
-  height: 50px;
-  margin: 30px 10px;
+  height: 100%;
 }
 
 .card-icon a {
-  margin-left: 13px;
   transition: all 0.2s;
-  display: block;
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  width: 50%;
-  padding: 70px 50px;
+  width: 100%;
+  height: 100%;
   background-color: rgba(255, 77, 77, 0.8);
   box-shadow: 0 15px 25px rgba(255, 22, 22, 0.3);
 }
@@ -207,8 +241,8 @@ header {
   border-bottom: 1px solid rgba(255, 153, 153, 0.5);
   padding: 60px 0;
   text-align: center;
+  width: 100%;
 }
-
 footer p {
   color: #5f5d60;
   font-size: 22px;
@@ -219,18 +253,33 @@ footer {
   padding: 20px;
   height: 60px;
   background-color: rgba(255, 255, 179, 0.7);
+  display: flex;
+  align-items: center;
 }
 
 .footer-container {
-  width: 1180px;
+  width: 100%;
   margin: 0 auto;
+}
+
+.footer-container .psuedo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.footer-container .psuedo p{
+  margin: 0;
 }
 
 .fa {
   font-size: 20px;
   text-align: center;
   text-decoration: none;
-  margin-right: 80px;
   padding-left: 5px;
   padding-top: 5px;
   padding-right: 4px;
@@ -248,4 +297,26 @@ footer {
   float: right;
   border-radius: 5px;
   transition: all 0.2s;
+}
+
+@media screen and (max-width: 750px){
+  header .container .psuedo .header-left{
+    padding-left: 10px;
+  }
+  .header-right a{
+    padding: 0 6px;
+  }
+  .card-container{
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .card-wrapper{
+    flex-direction: column;
+    padding: 0 20px;
+    height: 400px;
+  }
+  .card{
+    width: 100%;
+    height: 80px;
+  }
 }
