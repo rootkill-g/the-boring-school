@@ -1,6 +1,6 @@
 # Progate August Webathon : Web Page for an Educational Institution
 
-## URL: https://h4rsh-k.github.io/the-boring-school/
+## URL: https://rootkill-g.github.io/the-boring-school/
 
 Since the pandemic, the teachers are feeling helpless as they are not able to keep their students updated.
 Being unfamiliar with technology, they have never taught their students this way. 
